@@ -1,0 +1,13 @@
+Refract
+{
+	$refractamount "0.035"
+	$bluramount 1
+	$REFRACTTINT "[0.95 1.0 0.95]"
+	$scale "[1 1]"
+	$normalmap "glass/refract_clear"
+	$surfaceprop glass
+	//"<dx90"
+	//{
+	//	$fallbackmaterial "glass/glass_clear_dx8"
+	//}
+}

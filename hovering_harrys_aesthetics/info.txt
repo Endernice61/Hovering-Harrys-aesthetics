@@ -1,0 +1,25 @@
+"ID" "HOVERING_HARRYS_AESTHETICS"
+"Name"  "Hovering Harry's aesthetics"
+"Desc"  "Some items to make your maps more aesthetically pleasing"
+	
+"Item"
+{
+	"ID" "ITEM_BEE2_BARRIER_REFRACT"
+	"Description"
+		{
+		"" "Adds refracting glass. Connect them to regular glass or grating with an antline."
+		"" ""
+		"" "* Refracting glass is clear yet visible"
+		}
+	"Version"
+	{
+		"Styles"
+		{
+			"BEE2_CLEAN" 
+			{
+				"Folder" "barrier_refract"
+				"Config" "barrier_refract/clean.cfg"
+			}
+		}
+	}
+}
