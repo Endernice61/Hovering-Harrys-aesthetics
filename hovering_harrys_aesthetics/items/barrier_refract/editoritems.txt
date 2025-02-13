@@ -39,7 +39,7 @@
 			{
 			"0"
 				{
-				"Name"				"instances/BEE2/logic/barriers/tinted_glass.vmf"
+				"Name"				"instances/BEE2/logic/barriers/refract_glass.vmf"
 				"EntityCount"		"1"
 				"BrushCount"		"2"
 				"BrushSideCount"	"12"
