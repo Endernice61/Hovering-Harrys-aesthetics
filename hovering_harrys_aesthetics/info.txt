@@ -7,9 +7,10 @@
 	"ID" "ITEM_BEE2_BARRIER_REFRACT"
 	"Description"
 		{
-		"" "Adds refracting glass. Connect them to regular glass or grating with an antline."
-		"" ""
-		"" "* Refracting glass is clear yet visible"
+		"" "Adds refracting glass and a subtler version of regular glass. Connect them to regular glass or grating with an antline.  "
+		"" "Use **Cube Type** to select the type of glass  "
+		"" "* **Standard**: Refracting glass, which is blurry, but is completely clear yet visible"
+		"" "* **Companion**: Subtle glass, which is regular glass but more transparent"
 		}
 	"Version"
 	{
@@ -20,6 +21,28 @@
 				"Folder" "barrier_refract"
 				"Config" "barrier_refract/clean.cfg"
 			}
+		}
+	}
+}
+"Item"
+{
+	"ID"       "ITEM_LIGHT_PANEL_PLUS"
+	"Version"
+	{
+		"Styles"
+		{
+			"BEE2_CLEAN"	"light_strip_plus"
+		}
+	}
+}
+"Item"
+{
+	"ID"       "ITEM_CABLE"
+	"Version"
+	{
+		"Styles"
+		{
+			"BEE2_CLEAN"	"cable"
 		}
 	}
 }

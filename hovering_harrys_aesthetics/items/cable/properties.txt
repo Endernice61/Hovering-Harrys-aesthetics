@@ -1,0 +1,7 @@
+"Properties" {
+	"Authors" "Hovering Harry"
+	"Description" {
+		"" "Connect this to other cables to create cables  "
+		"" "**Timer Delay** controls the slack"
+	}
+}
