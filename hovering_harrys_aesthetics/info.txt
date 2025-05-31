@@ -2,15 +2,37 @@
 "Name"  "Hovering Harry's aesthetics"
 "Desc"  "Some items to make your maps more aesthetically pleasing"
 	
+"ConfigGroup"
+	{
+	"ID"    "HARRY_AESTHETICS"
+	"Name"  "Aesthetics"
+	"Widget"
+		{
+		"ID"		"ToneMax"
+		"Type"		"Slider"
+		"Default"	"3"
+
+		"Min"		"0"
+		"Max"		"20"
+		"Step"		"0.5"
+	
+		"Label"   "Auto Exposure Max"
+	
+		"Tooltip" "Sets the auto exposure"
+		}
+	}
+
 "Item"
 {
 	"ID" "ITEM_BEE2_BARRIER_REFRACT"
 	"Description"
 		{
-		"" "Adds refracting glass and a subtler version of regular glass. Connect them to regular glass or grating with an antline.  "
-		"" "Use **Cube Type** to select the type of glass  "
+		"" "Adds different glass/grating types. Connect them to regular glass or grating with an antline.  "
+		"" "Updates to this item may need to reorganize glass/grating types at some point, though currently the current types seem sufficient.  "
+		"" "Use **Cube Type** to select the type of glass/grating  "
 		"" "* **Standard**: Refracting glass, which is blurry, but is completely clear yet visible"
 		"" "* **Companion**: Subtle glass, which is regular glass but more transparent"
+		"" "* **Reflective**: Subtle grating, which is easier to see through  "
 		}
 	"Version"
 	{
@@ -43,6 +65,18 @@
 		"Styles"
 		{
 			"BEE2_CLEAN"	"cable"
+		}
+	}
+}
+"Item"
+{
+	"ID"  "ITEM_VBSP_AESTHETICS"
+	"NeedsUnlock" "1"
+	"Version"
+	{
+		"Styles"
+		{
+			"ANY_STYLE" "vbsp_aesthetics"
 		}
 	}
 }
