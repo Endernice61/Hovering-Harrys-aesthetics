@@ -7,11 +7,11 @@
 		"SubType"
 		{
 			"Name"				"Cable"
-			"Model" { "ModelName"		"cube.3ds" }
+			"Model" { "ModelName"		"BEE2/axis_helper_thick.mdl" }
 			"Palette"
 			{
 				"Tooltip"		"CABLE"
-				"Image"			"palette/im_lazy.png"
+				"Image"			"palette/BEE2/cable.png"
 				"Position"		"4 2 0"
 			}
 			"Sounds"
