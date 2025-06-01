@@ -3,13 +3,54 @@
 	"Type"		"ITEM_BEE2_BARRIER_REFRACT"
 	"Editor"
 		{
+		"SubTypeProperty"	"CubeType"
 		"SubType"
 			{
 			"Name"  "Refracting glass"
-			"Model" "BEE2/clean/tinted_glass.mdl"
+			"Model" "BEE2/refract_glass.mdl"
 			"Palette"
 				{
 				"Tooltip" "REFRACTING GLASS"
+				"Image"   "palette/BEE2/clean/refract_glass.vtf"
+				}
+			}
+		"SubType"
+			{
+			"Name"  "Clear glass"
+			"Model" "BEE2/clear_glass.mdl"
+			"Palette"
+				{
+				"Tooltip" "CLEAR GLASS"
+				"Image"   "palette/BEE2/clean/refract_glass.vtf"
+				}
+			}
+		"SubType"
+			{
+			"Name"  "Clear grating"
+			"Model" "BEE2/clear_grating.mdl"
+			"Palette"
+				{
+				"Tooltip" "CLEAR GRATING"
+				"Image"   "palette/BEE2/clean/refract_glass.vtf"
+				}
+			}
+		"SubType"
+			{
+			"Name"  "Clear grating"
+			"Model" "BEE2/clear_grating.mdl"
+			"Palette"
+				{
+				"Tooltip" "CLEAR GRATING"
+				"Image"   "palette/BEE2/clean/refract_glass.vtf"
+				}
+			}
+		"SubType"
+			{
+			"Name"  "Clear grating"
+			"Model" "BEE2/clear_grating.mdl"
+			"Palette"
+				{
+				"Tooltip" "CLEAR GRATING"
 				"Image"   "palette/BEE2/clean/refract_glass.vtf"
 				}
 			}
@@ -38,6 +79,34 @@
 		"Instances"
 			{
 			"0"
+				{
+				"Name"				"instances/BEE2/logic/barriers/refract_glass.vmf"
+				"EntityCount"		"1"
+				"BrushCount"		"2"
+				"BrushSideCount"	"12"
+				}
+			"1"
+				{
+				"Name"				"instances/BEE2/logic/barriers/refract_glass.vmf"
+				"EntityCount"		"1"
+				"BrushCount"		"2"
+				"BrushSideCount"	"12"
+				}
+			"2"
+				{
+				"Name"				"instances/BEE2/logic/barriers/refract_glass.vmf"
+				"EntityCount"		"1"
+				"BrushCount"		"2"
+				"BrushSideCount"	"12"
+				}
+			"3"
+				{
+				"Name"				"instances/BEE2/logic/barriers/refract_glass.vmf"
+				"EntityCount"		"1"
+				"BrushCount"		"2"
+				"BrushSideCount"	"12"
+				}
+			"4"
 				{
 				"Name"				"instances/BEE2/logic/barriers/refract_glass.vmf"
 				"EntityCount"		"1"

@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"glass/fake_refract"
+	"$envmapcontrast"		"0.500000"
+	"$envmaptint"		"[ .8 .8 .8 ]"
+	"$translucent"		"1"
+	"$envmapmask"		"glass/glasswindow007a_mask"
+	"$envmap"		"env_cubemap"
+	"$model"		"1"
+}
