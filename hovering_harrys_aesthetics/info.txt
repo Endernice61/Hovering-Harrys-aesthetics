@@ -80,3 +80,38 @@
 		}
 	}
 }
+
+
+"Style"
+	{
+	"ID"          "HARRY_CLEAN"
+	"Authors"     "Valve, Hovering Harry"
+	"Folder"      "clean_harry"
+	"Icon"        "styles/peti.png"
+	"IconLarge"   "prev/original_clean.png"
+	"Name"        "Harry Clean (OG Textures w/ merging)"
+	"ShortName"   "Harry Clean"
+	"Base"        "BEE2_CLEAN"
+	
+	"Has_Video"   "1"
+	"Description" 
+		{
+		"" "A version of Clean style which uses the original wall textures, but the textures may be merged to be bigger than a voxel. Items still use the BEE2-enhanced versions."
+		}
+	"Suggested"
+		{
+		"Quote"  "<NONE>"
+		"Music"  "VALVE_PETI"
+		"Skybox" "BEE2_CLEAN"
+		"Elev"   "<NONE>" // This means random-video
+		}
+	}
+
+
+"CorridorGroup"
+	{
+	"ID" "HARRY_CLEAN"
+	// Copy all the definitions across.
+	"Inherit" "BEE2_CLEAN"
+	}
+
