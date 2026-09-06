@@ -1,0 +1,139 @@
+"Item"
+	{
+	"Type"		"ITEM_LIGHT_PANEL_PLUS"
+	"ItemClass"	"itemlightstrip"
+	"Editor"
+		{
+		"SubTypeProperty" "CubeType"
+		"SubType"
+			{
+			"Name"			"Gray Light Strip"
+			"Model"
+				{
+				"ModelName" "light_strip.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip"   "GRAY LIGHT STRIP"
+				"Image"     "palette/light_panel.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"SubType"
+			{
+			"Name"			"Green Light Strip"
+			"Model"
+				{
+				"ModelName"	"bee2/clean/lights/light_strip_warm.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip"   "GREEN LIGHT STRIP"
+				"Image"	    "palette/light_panel_warm.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"SubType"
+			{
+			"Name"			"Pink Light Strip"
+			"Model"
+				{
+				"ModelName"	"bee2/clean/lights/light_strip_warm.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip"  "PINK LIGHT STRIP"
+				"Image"	   "palette/light_panel_warm.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"SubType"
+			{
+			"Name"			"Purple Light Strip"
+			"Model"
+				{
+				"ModelName"	"bee2/clean/lights/light_strip_cold.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip"  "PURPLE LIGHT STRIP"
+				"Image"	   "palette/light_panel_cold.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"SubType"
+			{
+			"Name"			"Cyan Light Strip"
+			"Model"
+				{
+				"ModelName"	"bee2/clean/lights/light_strip_cold.3ds"
+				}
+			"Palette"
+				{
+				"Tooltip"  "CYAN LIGHT STRIP"
+				"Image"	   "palette/light_panel_cold.png"
+				}
+			"Sounds"
+				{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+		"MovementHandle"        "HANDLE_8_POSITIONS"
+		}
+	"Properties"
+		{
+		"CubeType"
+			{
+			"DefaultValue"  "0"
+			"Index"         "1"
+			}
+		}
+	"Exporting"
+		{
+		"Instances"
+			{
+			"0"
+				{
+				"Name"				"instances/BEE2/clean/items/light_strip/common_plus.vmf"
+				"EntityCount"		"4"
+				"BrushCount"		"2"
+				"BrushSideCount"	"12"
+				}
+			"bee2_gray" "instances/BEE2/clean/items/light_strip/gray.vmf"
+			"bee2_green" "instances/BEE2/clean/items/light_strip/green.vmf"
+			"bee2_pink" "instances/BEE2/clean/items/light_strip/pink.vmf"
+			"bee2_purple" "instances/BEE2/clean/items/light_strip/purple.vmf"
+			"bee2_cyan" "instances/BEE2/clean/items/light_strip/cyan.vmf"
+			}
+
+		"TargetName"		"ls"
+		"Offset"	"64 64 64"
+		}
+	}

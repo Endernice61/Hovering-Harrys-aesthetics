@@ -1,0 +1,21 @@
+"Properties"
+	{
+	"Authors"		"Valve, BenVlodgi, Rantis, Lautaro, TeamSpen210, Hovering Harry"
+	"Tags"			"BEE; BEEMOD 1; Portal 2; Geometry; Lighting"
+	"Description"
+		{
+		"" "A glass-covered light that emits various colors of lighting. It may also be used to block portal placement or antline wiring."
+		"" ""
+		"" "* The non-cool lights can be used to contrast or highlight areas."
+		}
+	"Ent_Count"	"Light Strip: 2\nAntline Router: 0"
+	"infoURL"	"https://developer.valvesoftware.com/wiki/Portal_2_Puzzle_Maker/Light_Strip"
+	"Icon"
+		{
+		"0" "clean/light_strip_cool.png"
+		"1" "clean/light_strip_warm.png"
+		"2" "clean/light_strip_warm.png"
+		"3" "clean/light_strip_cold.png"
+		"4" "clean/light_strip_cold.png"
+		}
+	}
