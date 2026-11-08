@@ -38,21 +38,11 @@
 			{
 			"Name"  "Clear grating"
 			"Model" "BEE2/clear_grating.mdl"
-			"Palette"
-				{
-				"Tooltip" "CLEAR GRATING"
-				"Image"   "palette/BEE2/clean/refract_glass.vtf"
-				}
 			}
 		"SubType"
 			{
 			"Name"  "Clear grating"
 			"Model" "BEE2/clear_grating.mdl"
-			"Palette"
-				{
-				"Tooltip" "CLEAR GRATING"
-				"Image"   "palette/BEE2/clean/refract_glass.vtf"
-				}
 			}
 		"MovementHandle"        "HANDLE_4_DIRECTIONS"
 		}
