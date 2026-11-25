@@ -70,6 +70,17 @@
 }
 "Item"
 {
+	"ID"       "ITEM_HH_TREE"
+	"Version"
+	{
+		"Styles"
+		{
+			"BEE2_CLEAN"	"tree"
+		}
+	}
+}
+"Item"
+{
 	"ID"  "ITEM_VBSP_AESTHETICS"
 	"NeedsUnlock" "1"
 	"Version"

@@ -1,0 +1,50 @@
+"Item"
+{
+	"ItemClass"	"ItemBase"
+	"Type"		"ITEM_HH_TREE"
+	"Editor"
+	{
+		 
+		"SubType"
+		{
+			"Name"				"Tree"
+			"Model" { "ModelName"		"hovering_harry/tree.3ds" }
+			"Palette"
+			{
+				"Tooltip"		"TREE"
+				"Image"			"palette/hovering_harry/tree.png"
+			}
+			"Sounds"
+			{
+			"SOUND_CREATED"			"P2Editor.PlaceOther"
+			"SOUND_EDITING_ACTIVATE"	"P2Editor.ExpandOther"
+			"SOUND_EDITING_DEACTIVATE"	"P2Editor.CollapseOther"
+			"SOUND_DELETED"			"P2Editor.RemoveOther"
+			}
+		}
+		
+		"MovementHandle"	"HANDLE_4_DIRECTIONS"
+		"InvalidSurface" 	""
+		"DesiredFacing"		"DESIRES_ANYTHING"
+		"CanAnchorOnGoo"	"1"
+		"CanAnchorOnBarriers"	"0"
+	}
+	"Properties"
+	{
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name" "instances/BEE2/clean/items/hh/tree.vmf"
+				"EntityCount"	"0"
+				"BrushCount"	"0" 
+				"BrushSideCount"	"0"
+			}
+		}
+		"TargetName"	"tree"
+		"Offset"	"64 64 64"
+	}
+}
